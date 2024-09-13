@@ -1,6 +1,8 @@
 name: "VanBog's blog"
 description: "---"
 
+timezone: Europe/Minsk
+
 url: 'https://vanbog335.github.io/blog' 
 baseurl: ''
 
