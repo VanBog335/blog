@@ -15,12 +15,12 @@ layout: default
 {% endfor %}
 
 {% if paginator.previous_page %}
-<a href='{{ site.url }}{{ paginator.previous_page_path }}'>Прошлый</a>
+<a href='{{ site.url }}{{ paginator.previous_page_path }}'>Назад</a>
 {% endif %}
 
 &mdash; {{ paginator.page }} из {{ paginator.total_pages }} &mdash;
 
 {% if paginator.next_page %}
-<a href='{{ site.url }}{{ paginator.next_page_path }}'>Следующий</a>
+<a href='{{ site.url }}{{ paginator.next_page_path }}'>Вперёд</a>
 {% endif %}
 
