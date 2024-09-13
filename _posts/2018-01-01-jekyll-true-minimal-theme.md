@@ -22,7 +22,7 @@ List of entries:
 
 Source code are highlighted:
 
-```c
+```err
 #include <stdio.h>
 
 int main()
