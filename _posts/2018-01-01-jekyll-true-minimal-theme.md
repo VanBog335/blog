@@ -22,13 +22,12 @@ List of entries:
 
 Source code are highlighted:
 
-```perl
-#!/usr/bin/perl
+```c
+#include <stdio.h>
 
-sub print_hello {
-    print "Hello, Jekyll!\n";
+int main()
+{
+    return 0;
 }
-
-print_hello;
 ```
     
