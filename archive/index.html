@@ -3,12 +3,12 @@ layout: default
 title: Archive
 ---
 <!-- Штуко для генерации страницы архива здесь:
-https://gist.github.com/tuananh/7432553?permalink_comment_id=4466468#gistcomment-4466468 -->
+https://gist.github.com/tuananh/7432553 -->
 
 <h2>Архив</h2>
 {% assign postsByYearMonth = site.posts | group_by_exp:"post", "post.date | date: '%Y %b'"  %}
 {% for yearMonth in postsByYearMonth %}
-	<h3>{{ yearMonth.name }}</h3>
+	<h3>{{ post.date | date: '%Y %b' }}</h3>
 	<ul>
 		{% for post in yearMonth.items %}
 			<li><a href="{{ post.url }}">{{ post.title }}</a></li>
