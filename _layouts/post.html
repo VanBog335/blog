@@ -1,15 +1,21 @@
 ---
 layout: default
 ---
-<h1>{{ page.title }}{{ page.shortUrl }}</h1>
-<span>
-    {%- assign posting_date = page.date | date: "%Y-%m-%d" -%}
-    {% if posting_date == "1900-01-01" %}
-        -
-    {% else %}
-        {{ posting_date }}
-    {% endif %}
-</span>
+<h1>{{ page.title }}{{ page.shortUrl }} 
+
+<small>
+    <span>
+        {%- assign posting_date = page.date | date: "%Y-%m-%d" -%}
+        {% if posting_date == "1900-01-01" %}
+            -
+        {% else %}
+            {{ posting_date }}
+        {% endif %}
+    </span>
+</small>
+
+</h1>
+
 <div class='separator'></div>
 <script async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
         
