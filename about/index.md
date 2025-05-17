@@ -21,7 +21,8 @@ layout: default
 Из стримеров смотрю [Пятёрку](https://www.youtube.com/channel/UCwKfmsba1g3SDcOzbU4zPXw) и [Заквиеля](https://www.youtube.com/@ZakvielChannel).
 
 Страхи:
-- *будущее*
+- *будущего*
+- *перемен*
 
 [... вадим](../2024/10/21/html)
 
