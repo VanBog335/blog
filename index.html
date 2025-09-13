@@ -8,8 +8,9 @@ layout: default
     <a href='{{ site.url }}{{ post.url }}' title='{{ post.title }}'>
       {{ post.title }}
     </a>
+    <span style="color: #aaa; font-size: 0.9rem; margin-left: 0.5rem;"> — {{ post.date | date: "%Y-%m-%d" }}</span>
   </h2>
-  
+
   <p>{{ post.excerpt | strip_html | truncate: 250 }}</p>
 </section>       
 {% endfor %}
@@ -23,4 +24,3 @@ layout: default
 {% if paginator.next_page %}
 <a href='{{ site.url }}{{ paginator.next_page_path }}'>Вперёд</a>
 {% endif %}
-
