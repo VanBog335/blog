@@ -23,7 +23,7 @@ layout: default
 
 Список сюжеток, которые я прошёл и мне зашло: undertale, deltarune, undertale yellow, ut r&y, oneshot, in stars and time, hl2 и может что-то ещё чего я не помню. 
 
-Из стримеров смотрю [Пятёрку](https://www.youtube.com/channel/UCwKfmsba1g3SDcOzbU4zPXw) и [Заквиеля](https://www.youtube.com/@ZakvielChannel).
+Из стримеров смотрю [Пятёрку](https://www.youtube.com/channel/UCwKfmsba1g3SDcOzbU4zPXw) и [Заквиеля](https://www.youtube.com/@ZakvielChannel). Хотя лень и часто смотрю [Tsoding](https://twitch.tv/tsoding).
 
 Страхи:
 - *будущего*
