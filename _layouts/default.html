@@ -1,23 +1,54 @@
 <html>
 
 <head>
-    <meta charset='utf-8'>
-    <title>
-        {% if page.title %}
-            {{ page.title }}
-        {% else %} 
-            {{ site.name }}
-        {% endif %}
-    </title>
-    
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
+	<meta charset='utf-8'>
+	<title>
+		{% if page.title %}
+			{{ page.title }}
+		{% else %} 
+			{{ site.name }}
+		{% endif %}
+	</title>
+	<meta name='viewport' content='width=device-width, initial-scale=1'>
+	<style>
+	body{
+		margin:1em auto;
+		max-width:40em;
+		padding:0 .618em 3.236em;
+		font:1.15em/1.618 sans-serif;
+		background: #303040;
+		color: #ffffff;
+	}
+	h1,h2,h3 {
+		line-height:1.2;
+	}
+	a:link {
+		color: #ffff00;
+	}
+	a:visited {
+		color: #ffa000;
+	}
+	.justify-nav {
+		display: flex;
+		width: 100%;
+		align-items: center;
+	}
+	.justify-nav a {
+		flex: 1;
+		text-align: center;
+	}
+	.justify-nav .divider {
+		flex: 0 0 auto;
+		color: #808080;
+	}
+	</style>
 
 </head>
 
-<body bgcolor=#303040 text=#ffffff vlink=#ffa000 link=#ffff00>
-    {% include header.html %}
+<body>
+	{% include header.html %}
 
-    {{ content }}
+	{{ content }}
 <hr>
 </body>
 </html>
