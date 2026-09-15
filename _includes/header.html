@@ -1,5 +1,11 @@
 <header>
     <h1><a href='{{ site.url }}/'>{{ site.name }}</a></h1>
 </header>
-<a href='{{ site.url }}/'> Главная</a> | <a href='{{ site.url }}/about/'>Обо мне</a> | <a href='{{ site.url }}/archive/'>Архив</a> 
+<div class="justify-nav">
+    <a href="{{ site.url }}/">Главная</a>
+    <span class="divider">|</span>
+    <a href="{{ site.url }}/about/">Обо мне</a>
+    <span class="divider">|</span>
+    <a href="{{ site.url }}/archive/">Архив</a>
+</div>
 <hr>
